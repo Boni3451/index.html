@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja prva spletna stran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <h1>Dobrodošli na spletni strani!</h1>
+     <h2>{{ notification }}</h2>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#sposobnosti">Sposobnosti</a></li>
+                <li><a href="#projekti">Projekti</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>O Meni</h1>
+            <p>Ta spletna stran je ustvarjena kot projekt.</p>
+        </section>
+
+        <section id="skills">
+            <h1>Skills</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+
+        <section id="projekti">
+            <h1>Projekti</h1>
+            <ul>
+                <li><a href="https://openai.com/">Projekt 1</a></li>
+                <li><a href="https://www.24ur.com/">Projekt 2</a></li>
+                <li><a href="https://www.reddit.com/">Projekt 3</a></li>
+            </ul>
+        </section>
+
+        <section id="Kontakt">
+            <h1>Kontakt</h1>
+            <p>Email: valbongashi4@gmail.com.
+<form id="contact-form">
+ <label for="name">Name:</label>
+ <input type="text" id="name" name="name" required>
+
+ <label for="email">Email:</label>
+ <input type="email" id="email" name="email" required>
+
+ <label for="subject">Subject:</label>
+ <input type="text" id="subject" name="subject" required>
+
+ <label for="message">Message:</label>
+ <textarea id="message" name="message" required></textarea>
+
+ <button type="submit">Pošlji</button>
+</form>
+
+<div id="success-message" style="display: none;">Vaše sporočilo je bilo uspešno poslano!</div>
+
+<div class="banner">
+    <img src="a2fe21da9ce7d1698f5b48cdb506c853.jpg" alt="Banner Image">
+    <p>Pritisnite tukaj za obisk naslovnice</p>
+    <a href="path/to/your/homepage">Naslovnica</a>
+</div>
+
+
